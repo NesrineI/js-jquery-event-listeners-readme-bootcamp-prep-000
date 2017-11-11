@@ -24,7 +24,7 @@ pressIt();
    })
  }
  function pressIt(){
-   $('input').on('keydown', function(){
+   $('form input:first').on('keydown', function(){
      if(parseInt(e.which)==71){
        alert("Your form is going to be submitted now.")
      }
