@@ -20,3 +20,10 @@ $(document).ready(function(){
      alert("Your form is going to be submitted now.");
    })
  }
+ function pressIt(){
+   $('input').on('keydown', function(){
+     if(parseInt(e.which)==71){
+       alert("Your form is going to be submitted now.")
+     }
+   })
+ }
