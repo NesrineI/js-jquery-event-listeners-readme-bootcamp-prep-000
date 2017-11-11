@@ -26,7 +26,7 @@ pressIt();
  function pressIt(){
    $('#typing').on('keydown', function(){
      if(parseInt(e.which)===71){
-       alert("Your form is going to be submitted now.")
+       alert("G key was pressed");
      }
    })
  }
