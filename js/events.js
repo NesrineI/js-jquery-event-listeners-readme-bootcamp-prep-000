@@ -24,7 +24,7 @@ pressIt();
    })
  }
  function pressIt(){
-   $('#typing').on('keydown', function(){
+   $('#typing').on('keydown', function(e){
      if(parseInt(e.which)===71){
        alert("G key was pressed");
      }
